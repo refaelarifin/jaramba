@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+        Login
+    </title>
+    <link rel="stylesheet" href="styles/styles_index.css">
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js"></script>
+    <script rel="index_script" src="script/login/login_script.js"></script>
+</head>
+
+
+<div class="container">
+    
+    <div class="logo-container">
+        <img src="img/jaramba-logo-white.png" alt="Jaramba Logo" class="logo">
+    </div>
+
+    <div class="form-container">
+        <h1 class="title">Jaramba Fleet Management</h1>
+        <form class="login-form" onsubmit="return redirectToDashboard()">
+            <label for="identifier">Username or Email:</label>
+            <input type="text" id="identifier" name="identifier" required placeholder="Username or Email">
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Password">
+        
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+
+    <div class="circles-container"></div>
+    <div class="third-circle"></div>
+
+</div>
+
+</html>

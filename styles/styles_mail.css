@@ -1,0 +1,377 @@
+@media screen and (min-width: 1165px) {
+    body {
+        font-family: "Red Hat Display", sans-serif;
+        background-color: #FFFDFD;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #logo-jaramba {
+        height: 80px;
+        margin: auto auto auto 16px;
+    }
+
+    #settings-logo {
+        height: 40px;
+        margin: 24px 20px auto auto;
+        float: right;
+    }
+
+    #logout-logo {
+        height: 40px;
+        margin: 24px 24px auto auto;
+        float: right;
+    }
+
+    #real-body {
+        margin-top: -10px;
+        display: flex;
+        gap: 12px;
+        justify-content: space-evenly;
+    }
+
+    #left-body {
+        width: 250px;
+    }
+
+    #contents_of_page {
+        margin-top: -10px;
+        width: 900px;
+    }
+
+    #profile {
+        width: 25%;
+    }
+
+    #profile-picture {
+        height: 148px;
+        margin: 24px auto -8px 64px;
+    }
+
+    .profile-info {
+        margin: auto auto 32px 86px;
+    }
+
+
+    #nav {
+        color: black;
+        width: 25%;
+    }
+
+    .nav_menu {
+        margin: 8px 32px 20px 52px;
+        display: flex;
+    }
+
+    .nav_menu_img {
+        color: #F87171;
+        padding: 3px;
+    }
+
+    .nav_button_current {
+        display: flex;
+        background-color: #FCA5A5;
+        color: black;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .nav_button {
+        display: flex;
+        color: black;
+        padding: 10px;
+    }
+
+    .nav_text {
+        padding: 10px;
+        width: 110px;
+    }
+
+    #contents_of_page {
+        padding: 30px;
+    }
+
+    h2 {
+        width: 930px;
+    }
+
+    #mail_header {
+        display: flex;
+        align-items: center;
+    }
+
+    #write-mail-btn button {
+        background-color: #EF4444;
+        color: #FFFDFD;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100px;
+    }
+
+    #write-mail-btn button:hover {
+        background-color: #F87171;
+    }
+
+    /* Style for the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    /* Style for table header */
+    thead {
+        background-color: #EF4444;
+        color: white;
+    }
+
+    /* Style for table header cells */
+    th {
+        padding: 12px;
+        text-align: left;
+    }
+
+    /* Style for table body cells */
+    td {
+        padding: 12px;
+    }
+
+    /* Style for table rows */
+    tbody tr:nth-child(even) {
+        background-color: #FEE2E2;
+    }
+
+    /* Style for table rows on hover */
+    tbody tr:hover {
+        background-color: #FCA5A5;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .popup-content {
+        background-color: #FFFDFD;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .close {
+        color: #F87171;
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .write-mail-popup {
+        max-width: 400px;
+        background-color: #FFFDFD;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: opacity 0.3s, transform 0.3s;
+    }
+    
+    .write-mail-popup:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    #writeMailForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #writeMailForm textarea,
+    #writeMailForm input {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #E5E7EB;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: none;
+    }
+    
+    #writeMailForm button {
+        background-color: #EF4444;
+        color: #FFFDFD;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    #writeMailForm button:hover {
+        background-color: #F87171;
+    }
+
+    #pagination button {
+        font-size: 20px; /* Adjust the font size as needed */
+        margin-top: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 1165px) {
+    body {
+        font-family: "Red Hat Display", sans-serif;
+        background-color: aquamarine;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #login-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #logo-jaramba {
+        height: 80px;
+        margin: auto auto auto 16px;
+    }
+
+    #settings-logo {
+        height: 40px;
+        margin: 24px 20px auto auto;
+        float: right;
+    }
+
+    #logout-logo {
+        height: 40px;
+        margin: 24px 24px auto auto;
+        float: right;
+    }
+
+    #real-body {
+        margin-top: 10px;
+    }
+
+    #left-body {
+        display: flex;
+        flex-grow: 3;
+    }
+
+    #contents_of_page {
+        margin-top: 10px;
+        flex-grow: 4;
+    }
+
+    #profile {
+        width: 25%;
+    }
+
+    #profile-picture {
+        height: 148px;
+        margin: 24px auto -8px 64px;
+    }
+
+    .profile-info {
+        margin: auto auto 32px 86px;
+    }
+
+
+    #nav {
+        color: black;
+        width: 25%;
+    }
+
+    .nav_menu {
+        margin: 8px 16px 20px 52px;
+        display: flex;
+        padding: 1px;
+    }
+
+    .nav_menu_img {
+        color: #F87171;
+    }
+
+    .nav_button_current {
+        display: flex;
+        background-color: #FCA5A5;
+        color: black;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .nav_button {
+        display: flex;
+        color: black;
+        padding: 10px;
+    }
+
+    .nav_text {
+        margin: 10px auto 5px 16px;
+    }
+
+    #widgets {
+        background-color: cadetblue;
+        border: 1px solid black;
+        font-family: sans-serif;
+        padding: 10px;
+    }
+
+    .widget {
+        border: 1px solid black;
+        padding: 10px;
+        background-color: #EF4444;
+    }
+
+    h2 {
+        width: 930px;
+    }
+
+    table,
+    th,
+    td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        border-color: #FFFDFD;
+        padding: 8px;
+    }
+
+    #employees_table {
+        width: 100%;
+    }
+
+    #head_table_employees {
+        background-color: #EF4444;
+        color: white;
+        font-size: 18px;
+    }
+
+    .body_table_employees {
+        background-color: #FEE2E2;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Settings
+    </title>
+    
+    <link rel="stylesheet" href="styles/styles_settings.css">
+
+    <script src="./script/auth.js"></script>
+</head>
+
+<body>
+    <div>
+        <a href="index.html" id="logout-link">
+            <!--Logo keluar-->
+            <img id="logout-logo" src="img/logout.png" alt="Logout">
+        </a>
+    </div>
+    <div>
+        <a href="settings.html">
+            <!--Logo Settings-->
+            <img id="settings-logo" src="img/settings.png" alt="Settings">
+        </a>
+    </div>
+
+    <div>
+        <a href="dashboard.html">
+            <!--Logo Jaramba-->
+            <img id="logo-jaramba" src="img/logo-jaramba.png" alt="Logo Jaramba">
+        </a>
+    </div>
+
+
+    <div id="real-body">
+        <div id="left-body">
+            <div id="profile">
+                <div>
+                    <!--Profile Picture-->
+                    <img id="profile-picture" src="img/profile-picture.png" alt="Profile Picture" height="150">
+                </div>
+                <div class="profile-info">
+                    <h3 style="margin-bottom: 2px;">Nama_User</h3>
+                    <div style="margin-left: 20px;">Position</div>
+                </div>
+            </div>
+
+            <div id="nav">
+                <div class="nav_menu">
+                    <a href="dashboard.html" class="nav_button">
+                        <img class="nav_menu_img" src="img/dashboard.png" style="width: 32px;height: 32px;">
+                        <div class="nav_text">Dashboard</div>
+                    </a>
+                </div>
+                <div class="nav_menu">
+                    <a href="employees.html" class="nav_button_current">
+                        <img class="nav_menu_img" src="img/employees.png" style="width: 32px;height: 32px;">
+                        <div class="nav_text">Employees</div>
+                    </a>
+                </div>
+                <div class="nav_menu">
+                    <a href="calendar.html" class="nav_button">
+                        <img class="nav_menu_img" src="img/calendar.png" style="width: 32px;height: 32px;">
+                        <div class="nav_text">Calendar</div>
+                    </a>
+                </div>
+                <div class="nav_menu">
+                    <a href="fleet-tracking.html" class="nav_button">
+                        <img class="nav_menu_img" src="img/fleet-tracking.png" style="width: 32px;height: 40px;">
+                        <div class="nav_text">Fleet Tracking</div>
+                    </a>
+                </div>
+                <div class="nav_menu">
+                    <a href="mail.html" class="nav_button">
+                        <img class="nav_menu_img" src="img/mail.png" style="width: 36px;height: 30px;">
+                        <div class="nav_text">Mail</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="contents_of_page">
+            <h2>
+                Employees
+            </h2>
+            <table id="employees_table" style="width: 100%;">
+                <tr id="head_table_employees">
+                    <th>Name</th>
+                    <th>Positon</th>
+                    <th>Phone Number</th>
+                    <th>Details</th>
+                </tr>
+                <tr class="body_table_employees">
+                    <th>Arif Refael</th>
+                    <th>Driver</th>
+                    <th>+62-87877788432</th>
+                    <th><button>Details</button></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,285 @@
+@media screen and (min-width: 1165px) {
+    body {
+        font-family: "Red Hat Display", sans-serif;
+        background-color: #FFFDFD;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #logo-jaramba {
+        height: 80px;
+        margin: auto auto auto 16px;
+    }
+
+    #settings-logo {
+        height: 40px;
+        margin: 24px 20px auto auto;
+        float: right;
+    }
+
+    #logout-logo {
+        height: 40px;
+        margin: 24px 24px auto auto;
+        float: right;
+    }
+
+    #real-body {
+        margin-top: -10px;
+        display: flex;
+        gap: 12px;
+        justify-content: space-evenly;
+    }
+
+    #left-body {
+        width: 250px;
+    }
+
+    #contents_of_page {
+        margin-top: -10px;
+        width: 900px;
+    }
+
+    #profile {
+        width: 25%;
+    }
+
+    #profile-picture {
+        height: 148px;
+        margin: 24px auto -8px 64px;
+    }
+
+    .profile-info {
+        margin: auto auto 32px 86px;
+    }
+
+
+    #nav {
+        color: black;
+        width: 25%;
+    }
+
+    .nav_menu {
+        margin: 8px 32px 20px 52px;
+        display: flex;
+    }
+
+    .nav_menu_img {
+        color: #F87171;
+        padding: 3px;
+    }
+
+    .nav_button_current{
+        display: flex;
+        background-color: #FCA5A5;
+        color: black;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .nav_button {
+        display: flex;
+        color: black;
+        padding: 10px;
+    }
+
+    .nav_text {
+        padding: 10px;
+        width: 110px;
+    }
+
+    #contents_of_page{
+        padding: 30px;
+    }
+
+
+    #widgets-contianer {
+        /* background-color: cadetblue;
+        border: 1px solid black; */
+        font-family: "Red Hat Display", sans-serif;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: space-evenly;*/
+        column-gap: 24px;
+        row-gap: 0px;
+        height: 100%;
+    }
+
+    .widget {
+        border: 1px solid black;
+        background-color: #EF4444;
+        padding: 20px;
+    }
+
+    #widget-1 {
+        height: 40%;
+        width: 48%;
+        text-align: starts;
+    }
+
+    #widget-2{
+        height: 40%;
+        width: 38%;
+    }
+
+    #widget-3 {
+        height: 35%;
+        width: 43%;
+    }
+
+    #widget-4 {
+        height: 35%;
+        width: 43%;
+    }
+
+    h2{
+        width: 900px;
+    }
+
+    /* Insert more dashboard styles here */
+}
+
+@media screen and (max-width: 1165px) {
+    body {
+        font-family: "Red Hat Display", sans-serif;
+        background-color: #FFFDFD;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #logo-jaramba {
+        height: 80px;
+        margin: auto auto auto 16px;
+    }
+
+    #settings-logo {
+        height: 40px;
+        margin: 24px 20px auto auto;
+        float: right;
+    }
+
+    #logout-logo {
+        height: 40px;
+        margin: 24px 24px auto auto;
+        float: right;
+    }
+
+    #real-body {
+        margin-top: -10px;
+        display: flex;
+        gap: 12px;
+        justify-content: space-evenly;
+    }
+
+    #left-body {
+        width: 250px;
+    }
+
+    #contents_of_page {
+        margin-top: 10px;
+        width: 900px;
+    }
+
+    #profile {
+        width: 25%;
+    }
+
+    #profile-picture {
+        height: 148px;
+        margin: 24px auto -8px 64px;
+    }
+
+    .profile-info {
+        margin: auto auto 32px 86px;
+    }
+
+
+    #nav {
+        color: black;
+        width: 25%;
+    }
+
+    .nav_menu {
+        margin: 8px 32px 20px 52px;
+        display: flex;
+    }
+
+    .nav_menu_img {
+        color: #F87171;
+        padding: 3px;
+    }
+
+    .nav_button_current{
+        display: flex;
+        background-color: #FCA5A5;
+        color: black;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .nav_button {
+        display: flex;
+        color: black;
+        padding: 10px;
+    }
+
+    .nav_text {
+        padding: 10px;
+        width: 110px;
+    }
+
+    #contents_of_page{
+        padding: 30px;
+    }
+
+
+    #widgets-contianer {
+        /* background-color: cadetblue;
+        border: 1px solid black; */
+        font-family: "Red Hat Display", sans-serif;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: space-evenly;*/
+        gap: 24px;
+        row-gap: 20px;
+        height: 100%;
+    }
+
+    .widget {
+        border: 1px solid black;
+        background-color: #EF4444;
+        padding: 20px;
+    }
+
+    #widget-1 {
+        height: 40%;
+        width: 48%;
+        text-align: starts;
+    }
+
+    #widget-2{
+        height: 40%;
+        width: 38%;
+    }
+
+    #widget-3 {
+        height: 35%;
+        width: 43%;
+    }
+
+    #widget-4 {
+        height: 35%;
+        width: 43%;
+    }
+
+    h2{
+        width: 930px;
+    }
+}

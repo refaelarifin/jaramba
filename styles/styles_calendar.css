@@ -1,0 +1,235 @@
+@media screen and (min-width: 1165px) {
+    body {
+        font-family: "Red Hat Display", sans-serif;
+        background-color: #FFFDFD;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #logo-jaramba {
+        height: 80px;
+        margin: auto auto auto 16px;
+    }
+    
+    #settings-logo {
+        height: 40px;
+        margin: 24px 20px auto auto;
+        float: right;
+    }
+
+    #logout-logo {
+        height: 40px;
+        margin: 24px 24px auto auto;
+        float: right;
+    }
+
+    #real-body {
+        margin-top: -10px;
+        display: flex;
+        gap: 12px;
+        justify-content: space-evenly;
+    }
+
+    #left-body {
+        width: 250px;
+    }
+
+    #contents_of_page {
+        margin-top: -10px;
+        width: 900px;
+    }
+
+    #profile {
+        width: 25%;
+    }
+
+    #profile-picture {
+        height: 148px;
+        margin: 24px auto -8px 64px;
+    }
+
+    .profile-info {
+        margin: auto auto 32px 86px;
+    }
+
+
+    #nav {
+        color: black;
+        width: 25%;
+    }
+
+    .nav_menu {
+        margin: 8px 32px 20px 52px;
+        display: flex;
+    }
+
+    .nav_menu_img {
+        color: #F87171;
+        padding: 3px;
+    }
+
+    .nav_button_current{
+        display: flex;
+        background-color: #FCA5A5;
+        color: black;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .nav_button {
+        display: flex;
+        color: black;
+        padding: 10px;
+    }
+
+    .nav_text {
+        padding: 10px;
+        width: 110px;
+    }
+
+    #contents_of_page{
+        padding: 30px;
+    }
+
+    h2{
+        width: 930px;
+    }
+
+    #calendar .fc-toolbar-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #calendar {
+        background-color: #FFFDFD;
+        border: 1px solid #F87171;
+        padding: 10px;
+        /* margin: 20px; */
+    }
+
+    
+    .fc-event {
+        background-color: #FCA5A5;
+        border: 1px solid #F87171;
+        color: #FFFDFD;
+    }
+
+}
+
+@media screen and (max-width: 1165px) {
+    body {
+        font-family: "Red Hat Display", sans-serif;
+        background-color: beige;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #settings-logo {
+        height: 40px;
+        margin: 24px 20px auto auto;
+        float: right;
+    }
+
+    #logout-logo {
+        height: 40px;
+        margin: 24px 24px auto auto;
+        float: right;
+    }
+
+    #real-body {
+        margin-top: -10px;
+        display: flex;
+        gap: 12px;
+        justify-content: space-evenly;
+    }
+
+    #left-body {
+        width: 250px;
+    }
+
+    #contents_of_page {
+        margin-top: 10px;
+        width: 900px;
+    }
+
+    #profile {
+        width: 25%;
+    }
+
+    #profile-picture {
+        height: 148px;
+        margin: 24px auto -8px 64px;
+    }
+
+    .profile-info {
+        margin: auto auto 32px 86px;
+    }
+
+
+    #nav {
+        color: black;
+        width: 25%;
+    }
+
+    .nav_menu {
+        margin: 8px 32px 20px 52px;
+        display: flex;
+    }
+
+    .nav_menu_img {
+        color: #F87171;
+        padding: 3px;
+    }
+
+    .nav_button_current{
+        display: flex;
+        background-color: #FCA5A5;
+        color: black;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .nav_button {
+        display: flex;
+        color: black;
+        padding: 10px;
+    }
+
+    .nav_text {
+        padding: 10px;
+        width: 110px;
+    }
+
+    #contents_of_page{
+        padding: 30px;
+    }
+
+    h2{
+        width: 930px;
+    }
+
+    #calendar .fc-toolbar-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #calendar {
+        background-color: #FFFDFD;
+        border: 1px solid #F87171;
+        padding: 10px;
+        /* margin: 20px; */
+    }
+
+    
+    .fc-event {
+        background-color: #FCA5A5;
+        border: 1px solid #F87171;
+        color: #FFFDFD;
+    }
+}

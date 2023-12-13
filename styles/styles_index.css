@@ -1,0 +1,142 @@
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: #FF4141;
+    overflow: hidden;
+}
+
+/* Center the container vertically */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+.logo-container {
+    position: absolute;
+    top: 5%; /* Adjust the top position as a percentage of the container height */
+    left: 2%; /* Adjust the left position as a percentage of the container width */
+}
+
+.logo {
+    max-width: 20%; /* Adjust the width as a percentage of the container width */
+    max-height: 20%; /* Adjust the height as a percentage of the container height */
+}
+
+.form-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: whitesmoke;
+    margin: 10px;
+    margin-bottom: 20px; 
+}
+
+/* Center the form vertically within the container */
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; /* Occupy the entire height of the container */
+    color: whitesmoke;
+    margin-top: 20px; /* Adjust the margin-top to control vertical positioning */
+}
+
+/* Style the form */
+.login-form label,
+.login-form input {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 240px; /* Adjust the width to your preference */
+    height: 32px; /* Adjust the height to your preference */
+    text-align: left;
+    padding-left: 8px;
+}
+
+label,
+input,
+.login-button {
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Style the button */
+.login-button {
+    background-color: #FFE9EB;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.login-button:hover {
+    background-color: green;
+    color: white;
+}
+
+.circles-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #FF4141;
+}
+
+.circles-container::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FF7575;
+    z-index: -1;
+    width: 9%; /* Adjust the width as a percentage of the container's width */
+    height: 14%; /* Adjust the height as a percentage of the container's height */
+    top: 35%; /* Adjust vertical position as a percentage of the container's height */
+    left: 10%; /* Adjust horizontal position as a percentage of the container's width */
+}
+
+.circles-container::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FF7575;
+    z-index: -1;
+    width: 4%; /* Adjust the width as a percentage of the container's width */
+    height: 6%; /* Adjust the height as a percentage of the container's height */
+    top: 50%; /* Adjust vertical position as a percentage of the container's height */
+    left: 30%; /* Adjust horizontal position as a percentage of the container's width */
+}
+
+/* Add a third circle */
+.third-circle {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FF7575;
+    z-index: -1;
+    width: 90%; /* Adjust the width as a percentage of the container's width */
+    height: 50%; /* Adjust the height as a percentage of the container's height */
+    top: -25%; /* Adjust vertical position as a percentage of the container's height */
+    left: -30%; /* Adjust horizontal position as a percentage of the container's width */
+}
+
+
