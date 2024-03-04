@@ -2,7 +2,7 @@ function redirectToDashboard() {
     var identifier = document.getElementById("identifier").value;
     var password = document.getElementById("password").value;
 
-    axios.post('https://34.101.109.44:3001/v1/login', {
+    axios.post('http://34.125.67.146:3000/v1/login', {
         usernameOrEmail: identifier,
         password: password
     }, {
@@ -10,7 +10,7 @@ function redirectToDashboard() {
             'Content-Type': 'application/json',
         },
     })
-    .then(response => {
+    .then(response => { 
         const data = response.data;
         if (data.accessToken && data.refreshToken) {
             // Tokens are present, store them in local storage

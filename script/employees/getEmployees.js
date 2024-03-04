@@ -8,7 +8,7 @@ function getEmployeesData(accessToken) {
     },
   };
 
-  return axios.get('https://34.101.109.44:3001/v1/users', config)
+  return axios.get('http://34.125.67.146:3000/v1/users', config)
     .then(response => {
       const data = response.data.users;
       console.log('Fetched employee data:', data);

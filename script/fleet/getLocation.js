@@ -2,7 +2,7 @@
 
 async function getLocationData(accessToken) {
     try {
-        const response = await axios.get('https://34.101.109.44:3001/v1/fleetLocations', {
+        const response = await axios.get('http://34.125.67.146:3000/v1/fleetLocations', {
             headers: {
                 'Content-Type': 'application/json',
                 'authorization': `bearer ${accessToken}`, // Use the dynamically retrieved access token

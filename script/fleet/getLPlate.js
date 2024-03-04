@@ -2,7 +2,7 @@
 
 async function getFleetData(accessToken) {
     try {
-        const response = await axios.get('https://34.101.109.44:3001/v1/fleets', {
+        const response = await axios.get('http://34.125.67.146:3000/v1/fleets', {
             headers: {
                 'Content-Type': 'application/json',
                 'authorization': `bearer ${accessToken}`, // Use the dynamically retrieved access token
